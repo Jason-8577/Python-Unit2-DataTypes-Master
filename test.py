@@ -7,4 +7,7 @@ def not_movies(homework):
         print("homework time, I hate russian")
 not_movies(homework) """
 
-yes = True 
+def factor(x,y):
+    if x % y == 0:
+        print(f"{y} is a factor of {x}")
+factor(25,5)
