@@ -7,13 +7,20 @@ def not_movies(homework):
         print("homework time, I hate russian")
 not_movies(homework) """
 
-""" def factor(x,y):
-    if x % y == 0:
-        print(f"{y} is a factor of {x}")
-factor(25,5) """
-
-x = 2
-if x == 1:
+""" x = 2
+if x == x:
     print("even")
 else:
-    print("odd")
+    print("odd") """
+""" 
+def factor(x,y):
+    if x % y == 0:
+        print(f"{y} is a factor of {x}")
+factor(20,5) """
+""" 
+a = int('5')
+bill = input("How much was the bill?")
+print(int(bill))
+
+ """
+
