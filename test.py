@@ -16,7 +16,7 @@ a = int('5')
 bill = input("How much was the bill?")
 print(int(bill))  """
 
-print("Was the service good")
+""" print("Was the service good")
 def tip(y):
     if y == 0:
         print("bad")
@@ -26,3 +26,16 @@ def tip(y):
         print("good")
     else:
         print("great")
+ """
+
+""" def number(x):
+    if x % 2 == 0:
+        print(f"(x) is even")
+    else:
+        print(f"(x) is odd")
+x = 4
+ """
+
+x % i == 0
+y % i == 0
+function
