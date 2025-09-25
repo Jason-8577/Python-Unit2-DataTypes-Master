@@ -30,12 +30,9 @@ def tip(y):
 
 """ def number(x):
     if x % 2 == 0:
-        print(f"(x) is even")
+        print(f"{x} is even")
     else:
-        print(f"(x) is odd")
-x = 4
- """
+        print(f"{x} is odd")
+x=2 """
 
-x % i == 0
-y % i == 0
-function
+
