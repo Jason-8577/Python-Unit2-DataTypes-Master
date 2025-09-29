@@ -7,50 +7,39 @@ def not_movies(homework):
         print("homework time, I hate russian")
 not_movies(homework) """
 
-""" def factor(x,y):
+""" a = int('5')
+bill = input("How much was the bill?")
+print(int(bill))  
+
+def factor(x,y):
     if x % y == 0:
         print(f"{y} is a factor of {x}")
-factor(20,5) 
+factor(20,5)
 
-a = int('5')
-bill = input("How much was the bill?")
-print(int(bill))  """
-
-""" print("Was the service good")
-def tip(y):
-    if y == 0:
-        print("bad")
-    elif y == 15:
-        print("okay")
-    if y == 20:
-        print("good")
-    else:
-        print("great")
- """
-
-""" def number(x):
+def number(x):
     if x % 2 == 0:
         print(f"{x} is even")
     else:
         print(f"{x} is odd")
-x=2 """
+x=3 
 
 service = input("Was the service good?")
-def bill(x,y):
-    if service == "bad":
-        print("total bill is(x+y*1)")
-    elif service == "okay":
-        print("total bill is(x+y*1.15)")
-    elif service == "good":
-        print("total bill is(x+y*1.2)")
-    else:
-        print("total bill is(x+y*1.25)")
-x=5
+if service == "bad":
+    print("no tip," "total is 10")
+elif service == "okay":
+    print("15% tip," "total is 11.5")
+elif service == "good":
+    print("20% tip," "total is 12")
+else:
+    print("25% tip," "total is 12.5")
+x = 10 """
 
+""" factor = input("what is the number?")
+if factor == "10":
+    print("1,2,5,10") """
 
-
-
-
-"""
-if x % i == 0
-elif y % i == 0  """
+def gcf(x,y):
+    if gcf == (10,5):
+        x % 10 == 0
+        y % 5 == 0
+z = "greatest common factor"
