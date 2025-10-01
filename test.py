@@ -41,5 +41,13 @@ else:
 Total = x
 print(Total) """
 
-def gcf(x,y):
-    
+
+def greatest_factor(x,y):
+    for i in range(1, min(x,y) + 1):
+        if x % i == 0 and y % i == 0:
+            gcf = i
+        return gcf
+x=10
+y=5
+gcf = greatest_factor(10,5)
+print(f"The GCF of {x} and {y} is {gcf}")
