@@ -42,12 +42,13 @@ Total = x
 print(Total) """
 
 
-def greatest_factor(x,y):
-    for i in range(1, min(x,y) + 1):
-        if x % i == 0 and y % i == 0:
+""" def greatest_factor(num1,num2):
+    smaller = min(num1, num2) 
+    gcf = 1
+    for i in range(1, smaller + 1):
+        if num1 % i == 0 and num2 % i == 0: 
             gcf = i
-        return gcf
-x=10
-y=5
-gcf = greatest_factor(10,5)
-print(f"The GCF of {x} and {y} is {gcf}")
+    return gcf
+num1 = 10
+num2 = 100
+print("The gcf of", num1, "and", num2, "is", greatest_factor(num1,num2))     """
