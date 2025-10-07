@@ -42,7 +42,7 @@ Total = x
 print(Total) """
 
 
-""" def greatest_factor(num1,num2):
+def greatest_factor(num1,num2):
     smaller = min(num1, num2) 
     gcf = 1
     for i in range(1, smaller + 1):
@@ -51,4 +51,4 @@ print(Total) """
     return gcf
 num1 = 10
 num2 = 100
-print("The gcf of", num1, "and", num2, "is", greatest_factor(num1,num2))     """
+print("The gcf of", num1, "and", num2, "is", greatest_factor(num1,num2))    
