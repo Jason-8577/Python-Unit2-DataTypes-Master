@@ -50,5 +50,5 @@ def greatest_factor(num1,num2):
             gcf = i
     return gcf
 num1 = 10
-num2 = 100
+num2 = 50
 print("The gcf of", num1, "and", num2, "is", greatest_factor(num1,num2))    
